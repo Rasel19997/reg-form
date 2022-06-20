@@ -1,0 +1,91 @@
+*body{
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+
+}
+.container{
+    width: 80%;
+    background-color: rgb(170, 237, 170);
+    margin: 0px auto;
+    overflow: hidden;
+}
+.fbody{
+    width: 50%;
+    margin:100px auto;
+    background: antiquewhite;
+    padding:25px;
+    color: deeppink;
+}
+.fhead{
+    text-align: center;
+    border-bottom: 2px solid  black;
+    width: 70%;
+    margin: 0 auto;
+    margin-bottom: 25px;
+   
+}
+label{
+    font-size: 25px;
+}
+.inp{
+    width: 70%;
+    height: 30px;
+    border-radius: 10px;
+    border: none;
+}
+.fn{
+    width: 34%;
+}
+::placeholder{
+    padding-left: 10px;
+    font-size: 15px;
+    color: blue;
+    font-style: italic;
+    
+}
+.inp:focus{
+   
+    outline: 2px solid green;
+}
+input[type=date]{
+    width: 35%;
+    height: 30px;
+    color: blue;
+    border-radius: 10px;
+    padding-left: 10px;
+    border: none;
+   
+}
+select{
+    color: blue;
+    width: 20%;
+    height:30px;
+    border-radius: 10px;
+}
+option{
+    color: blue;
+    font-size: 15px;
+}
+.fs{
+    margin:6px 15px 15px;
+}
+.fs label{
+    font-size: 20px;
+    color: blue;
+}
+input[type=submit]{
+    width: 50%;
+    color: red;
+    font-size: 30px;
+    border-radius: 30%;
+    display: block;
+    margin: 25px auto;
+    border: 2px solid blue;
+}
+input[type=file]{
+    color: blue;
+}
+
+
+    
